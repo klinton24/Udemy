@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+div {
+    background-color: gold;
+}
+
+h1 {
+    margin: 0;
+}
+
+.top-container {
+    background-color: #8ac4d0;
+    width: auto;
+    height: 100vh;
+}
+
+.middle-container {
+    background-color: #f4d160;
+    height: 100vh;
+}
+
+.bottom-container {
+    background-color: #28527a;
+    height: 100vh;
+}
+
+.mountain1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left:0;
+    height: 75%;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 400px;
+    height: 200px;
+
+}
+
+.cloud1 {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 400px;
+    height: 200px;
+    opacity: 90%;
+
+}
+
+/* https://colorhunt.co/palette/257808 */

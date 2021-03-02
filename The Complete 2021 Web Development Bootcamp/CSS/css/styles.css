@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
 }
 
 div {
@@ -8,6 +10,8 @@ div {
 
 h1 {
     margin: 0;
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 
 .top-container {
@@ -25,6 +29,7 @@ h1 {
     background-color: #28527a;
     height: 100vh;
 }
+
 
 .mountain1 {
     position: absolute;

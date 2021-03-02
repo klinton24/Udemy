@@ -4,14 +4,11 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-div {
-    background-color: gold;
-}
-
 h1 {
     margin: 0;
     padding-top: 70px;
     padding-bottom: 20px;
+    font-family: 'Marck Script', cursive;
 }
 
 .top-container {
@@ -22,12 +19,10 @@ h1 {
 
 .middle-container {
     background-color: #f4d160;
-    height: 100vh;
 }
 
 .bottom-container {
     background-color: #28527a;
-    height: 100vh;
 }
 
 
@@ -56,6 +51,12 @@ h1 {
     height: 200px;
     opacity: 90%;
 
+}
+
+.profile img {
+    border-radius: 0% 0% 100% 100%;
+    padding-top: 20px;
+    height: 150px;
 }
 
 /* https://colorhunt.co/palette/257808 */

@@ -54,3 +54,27 @@ h1 {
     width: 60%;
     transform: rotate(25deg);
 }
+
+/* Feature Section */
+
+#features {
+    padding: 7% 15%;
+}
+
+#features p {
+    color: #8f8f8f
+}
+
+#features h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#features i {
+    color:#ef8172;
+}
+
+.feature-box {
+    padding: 5%;
+}

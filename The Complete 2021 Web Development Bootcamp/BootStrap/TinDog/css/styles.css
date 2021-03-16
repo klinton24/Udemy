@@ -96,7 +96,6 @@ h2 {
 /* Testimonials */
 
 #testimonials {
-  padding: 7% 15%;
   background-color: #ff5b00;
   color: #fff;
 }
@@ -105,6 +104,10 @@ h2 {
   border-radius: 50%;
   width: 10%;
   margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 /* Press */

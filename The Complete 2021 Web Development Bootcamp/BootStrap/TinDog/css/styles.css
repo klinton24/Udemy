@@ -1,3 +1,5 @@
+/* https://www.color-hex.com/color-palette/25513 */
+
 body {
   font-family: Montserrat;
   font-weight: 900;
@@ -19,6 +21,13 @@ h1 {
   line-height: 1.5;
   font-weight: 900;
 
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 /* Navigation bar */
@@ -72,9 +81,40 @@ h1 {
 }
 
 #features i {
-    color:#ef8172;
+    color:#ff5b00;
+    margin-bottom: 1rem;
+}
+
+#features i:hover {
+  color: red;
 }
 
 .feature-box {
     padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  background-color: #ff5b00;
+  color: #fff;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+  background-color: #ff5b00;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }

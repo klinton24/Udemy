@@ -121,3 +121,17 @@ h2 {
   width: 15%;
   margin: 20px 20px 50px;
 }
+
+/* Pricing */
+
+.price-card {
+  width: 20rem;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 20px;
+  margin-right: 20px; 
+}
+
+.card-header {
+  background-color: rgb(255, 193, 7, 0.3);
+}

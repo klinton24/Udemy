@@ -1,9 +1,24 @@
 /* https://www.color-hex.com/color-palette/25513 */
 
 body {
-  font-family: Montserrat;
-  font-weight: 900;
   text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 #title {
@@ -14,21 +29,6 @@ body {
 
 .container-fluid {
   padding: 3% 15% 7%;
-}
-
-h1 {
-  font-family: Montserrat, sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-
-}
-
-h2 {
-  font-family: Montserrat, sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
 }
 
 /* Navigation bar */
@@ -163,7 +163,10 @@ h2 {
 #cta h3 {
   font-weight: 900;
   font-family: Montserrat, sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
   padding: 3%;
+  color: #fff;
 }
 
 /* footer */
@@ -174,4 +177,10 @@ h2 {
 
 #footer p {
   font-weight: 300;
+}
+
+.social-icon {
+  margin: 40px 15px;
+  font-size: 32px;
+
 }

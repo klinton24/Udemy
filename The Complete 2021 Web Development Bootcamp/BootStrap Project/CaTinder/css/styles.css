@@ -9,11 +9,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
-h2 {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
 /* Headings */
 
 .big-heading {
@@ -21,14 +16,20 @@ h2 {
   line-height: 1.5;
 }
 
-#title {
-  background-color: #ffc107;
-  color: #fff;
-  text-align: left;
+.section-heading{
+  font-size:3rem;
+  line-height: 1.5;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
+/* Sections */
+
+.colored-section {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /* Navigation bar */
@@ -58,7 +59,12 @@ h2 {
     margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
+/* Title */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
 
 .title-image {
     transform: rotate(-25deg);
@@ -71,7 +77,6 @@ h2 {
 
 #features {
     padding: 7% 15%;
-    background-color: #fff;
     position: relative;
 }
 
@@ -102,7 +107,6 @@ h2 {
 
 #testimonials {
   background-color: #ff5b00;
-  color: #fff;
 }
 
 .testimonial-image {
@@ -118,8 +122,8 @@ h2 {
 /* Press */
 
 #press {
-  background-color: #ff5b00;
   padding-bottom: 3%;
+  background-color: #ff5b00;
 }
 
 .press-logo {
@@ -166,14 +170,9 @@ h2 {
   font-size: 3.5rem;
   line-height: 1.5;
   padding: 3%;
-  color: #fff;
 }
 
 /* footer */
-
-#footer {
-  background-color: #fff;
-}
 
 #footer p {
   font-weight: 300;

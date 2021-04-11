@@ -43,3 +43,11 @@ $("input").keydown(function(event) {
 $("h1").on("mouseover", function() {
     $("h1").css("color", "red");
 })
+
+$("h1").before("<button>Before Button</button>");
+
+$("h1").after("<button>After Button</button>");
+
+$("h1").prepend("<button>Prepend Button</button>");
+
+$("h1").append("<button>Append Button</button>");

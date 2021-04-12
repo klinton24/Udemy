@@ -2,7 +2,7 @@ const buttonColors = ["red", "blue", "green", "yellow"];
 
 const gamePattern = [];
 
-const userClickedPattern = [];
+let userClickedPattern = [];
 
 let gameStarted = false;
 
@@ -20,7 +20,19 @@ function animatePress(currentColor) {
     }, 100);
 }
 
+function checkAnswer (currentLevel) {
+    if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
+        if (userClickedPattern.length === gamePattern.length){
+        setTimeout(function () {
+            nextSequence()
+        }, 1000);
+    }
+    } else { console.log("wrong");  
+    };
+};
+
 function nextSequence () {
+    userClickedPattern = [];
     let number = Math.floor(Math.random() * 4);
     let randomChosenColor =  buttonColors[number];
     $("#"+randomChosenColor).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
@@ -35,6 +47,7 @@ $(".btn").click(function() {
     playSound(userChosenColor);
     animatePress(userChosenColor);
     userClickedPattern.push(userChosenColor);
+    checkAnswer();
 })
 
 $(document).keypress(function() {

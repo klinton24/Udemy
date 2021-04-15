@@ -8,6 +8,19 @@ app.get("/", function(req,res) {
     res.sendFile(__dirname+"/index.html");
 });
 
+app.get("/bmicalculator", function(req,res) {
+    res.sendFile(__dirname+"/bmiCalculator.html");
+});
+
+app.post("/bmicalculator", function(req, res) {
+    let height = Number(req.body.height);
+    let weight = Number(req.body.weight);
+
+    let result = Math.floor((weight * 703) / (height * height));
+
+    res.send("Your BMI is " + result+".");
+});
+
 app.post("/", function(req, res) {
     let num1 = Number(req.body.num1);
     let num2 = Number(req.body.num2);

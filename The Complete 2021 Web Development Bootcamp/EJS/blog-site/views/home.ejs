@@ -2,9 +2,9 @@
 <!--OR include("partials/header") -->
 <h1>Home</h1>
 <p><%= homeContent %></p>
-
-<% for (let i=0; i<posts.length;  i++ ) { %>
-      <p><%= posts[i].postTitle %> - <%= posts[i].postBody %></p>
-      <% } %>
+<% posts.forEach(post => { %>
+<h1><%= post.postTitle %></h1>
+<p><%= post.postBody %></p>
+<% }); %>
 
 <%- include partials/footer -%>

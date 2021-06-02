@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-const posts = [];
+let posts = [];
 
 app.get("/", (req, res) => {
   res.render("home", {
@@ -45,6 +45,16 @@ app.post("/compose", (req,res) => {
   }
   posts.push(entry);
   res.redirect("/");
+});
+
+app.get("/posts/:postName", (req, res) => {
+  const requestedTitle = req.params.postName;
+  posts.forEach(post => {
+    const storedTitle = post.postTitle;
+    if(storedTitle === requestedTitle) {
+      console.log("Matching");
+    }
+  });
 });
 
 app.listen(3000, function() {
